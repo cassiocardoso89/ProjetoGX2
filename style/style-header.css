@@ -1,0 +1,52 @@
+.header{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 1.5% 3%;
+    background: #F6F6F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logoHeader{
+    top: 20px;
+    left: 120px;
+    width: 135px;
+    height: 40px;
+    background: transparent url('/img/Logo-1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    justify-content: start;
+}
+
+ul{
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    color: #1C1C1D;
+    float: left;
+    padding: 0px 50px;
+    opacity: 1;
+    font-weight: bolder;
+}
+
+header ul li a:hover{
+    color: #10DFC2;
+    border-bottom: #10DFC2 solid 2px;
+}
+
+.botaoContato{
+    top: 19px;
+    left: 1033px;
+    width: 213px;
+    height: 42px;
+    background: #10DFC2 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    justify-content: end;
+}

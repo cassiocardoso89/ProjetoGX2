@@ -1,0 +1,8 @@
+body{
+    font-family: 'Montserrat';
+}
+
+a, a:link, a:visited, a:active {
+    color: #1C1C1D;
+    text-decoration: none;
+}
