@@ -3,12 +3,12 @@
     border:#0EAFAC solid 1px;
     
 }
-ul{
+.listaRequisitos, .listaDetalhes{
     list-style:none;
     padding-left: 0;
     font: 16px/23px 'Montserrat';
 }
-ul li::before{
+.listaRequisitos li::before, .listaDetalhes li::before{
     content: "\2022";
     margin-right: 5px;
 }
