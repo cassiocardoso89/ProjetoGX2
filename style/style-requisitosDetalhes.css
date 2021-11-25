@@ -1,0 +1,77 @@
+.requisitosDetalhes{
+    /* max-width: 866px; */
+    border:#0EAFAC solid 1px;
+    
+}
+ul{
+    list-style:none;
+    padding-left: 0;
+    font: 16px/23px 'Montserrat';
+}
+ul li::before{
+    content: "\2022";
+    margin-right: 5px;
+}
+
+.requisitos{
+    height: 13%;
+    max-height: 310px;
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    color: #032624;
+    border: rgb(225, 0, 255) solid 3px;
+}
+.fotoRequisitos{
+    max-width: 470px;
+    width: 25%;
+    text-align: left;
+}
+.textoRequisitos{
+    text-align: left;
+    font: 500;
+    opacity: 1;
+    max-width: 470px;
+    width: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.textoRequisitos h1{
+    color: #0EAFAC;
+    font-weight: bolder;
+}
+.textoRequisitos p{
+    font-weight: bolder;
+}
+
+
+.detalhes{
+    height: 13%;
+    max-height: 310px;
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    color: #032624;
+    border: rgb(225, 0, 255) solid 3px;
+}
+.textoDetalhes{
+    text-align: left;
+    font: 500;
+    opacity: 1;
+    max-width: 470px;
+    width: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.textoDetalhes h1{
+    color: #0EAFAC;
+    font-weight: bolder;
+}
+.textoDetalhes p{
+    font-weight: bolder;
+}
+.fotoDetalhes{
+    max-width: 470px;
+    width: 25%;
+    text-align: right;
+}
