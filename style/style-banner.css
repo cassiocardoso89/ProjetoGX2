@@ -6,7 +6,8 @@
     display: flex;
     justify-content: center;
     color: #FFFFFF;
-    background: transparent url('/img/Background.png') no-repeat center center;
+    background: url('/img/Background.png');
+    background-position: center;
     background-size: 100% 100%;
 }
 
