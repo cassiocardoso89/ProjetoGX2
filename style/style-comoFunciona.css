@@ -1,0 +1,41 @@
+.comoFuncGeral{
+    max-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #032624;
+    background-color: #F6F6F6;
+    align-items: center;
+}
+
+
+.comoFunc{
+    max-width: 1366px;
+}
+.textoComoFunc h2{
+    font: normal normal bold 32px/41px;
+    color: #0EAFAC;
+}
+.textoComoFunc p{
+    max-width: 560px;
+    display: inline-block;
+}
+
+.cardsComoFunc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    max-width: 260px;
+    max-height: 250px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px #00000029;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #fff;
+}
