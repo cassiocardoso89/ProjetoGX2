@@ -11,14 +11,15 @@
     align-items: center;
 }
 
-
 .comoFunc{
     max-width: 1366px;
 }
+
 .textoComoFunc h2{
     font: normal normal bold 32px/41px;
     color: #0EAFAC;
 }
+
 .textoComoFunc p{
     max-width: 560px;
     display: inline-block;

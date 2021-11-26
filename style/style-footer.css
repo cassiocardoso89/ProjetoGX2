@@ -7,13 +7,15 @@
     color: #fff;
     font: normal normal normal 16px/23px 'Montserrat';
 }
+
 .textoFooter{
     width: 430px;
-    /* border: #ff7b00 solid 1px; */
 }
+
 .textoFooter h3{
     font-weight: 600;
 }
+
 .botaoFooter{
     margin-top: 20px;
     padding: 8px 15px;
@@ -25,10 +27,12 @@
     cursor: pointer;
     font-weight: 600;
 }
+
 .botaoFooter:hover{
     transform: scale(1.1);
     transition: all 0.3s;
 }
+
 .botaoFooter::after{
     content: url('../img/Caminho\ 221.svg');
     margin-left: 10px;
@@ -38,16 +42,19 @@
 .servicosFooter{
     margin: 0 70px;
     width: 131px;
-    /* border: #00a2ff solid 1px; */
 }
+
 .servicosFooter p{
     padding: 0;
-    font: normal normal 600 24px/23px 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
 }
+
 .enderecosFooter, .listasFooter{
-        list-style:none;
-        padding-left: 0;
+    list-style:none;
+    padding-left: 0;
 }
+
 .servicosFooter .listasFooter li{
     line-height: 2.5em;
 }
@@ -60,12 +67,15 @@
     width: 415px;
     /* border: #e5ff00 solid 1px; */
 }
+
 .enderecosFooter{
     position: relative;
 }
+
 .enderecosFooter li p{    
     margin-left: 60px;
 }
+
 .detalheEndereco::before{
     content: url('../img/Caminho\ 223.svg');
     position: absolute;
@@ -74,9 +84,11 @@
     border: #fff solid 15px; 
     border-radius: 50%;
 }
+
 .listaEnderecosCidade{
     font-weight: 700;
 }
+
 .outraClass{
     display: flex;
     flex-direction: column;

@@ -1,27 +1,25 @@
 .newsLetter{
     height: 15%;
-    /* margin: 50px auto 50px auto; */
     display: flex;
     justify-content: center;
     color: #fff;
     background-color: #19DBD1;
     padding: 50px;
 }
+
 .newsTexto{
     text-align: left;
     font: 500;
     max-width: 480px;
     width: 25%;
-    /* margin-top: auto;
-    margin-bottom: auto; */
 }
-
 
 .newsForm{
     max-width: 470px;
     width: 25%;
     text-align: left;
 }
+
 form input{
     width: 80%;
     height: 35px;

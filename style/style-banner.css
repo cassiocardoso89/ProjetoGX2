@@ -5,7 +5,6 @@
     padding-bottom: 50px;
     display: flex;
     justify-content: center;
-    border: rgb(225, 0, 255) solid 3px;
     color: #FFFFFF;
     background: transparent url('/img/Background.png') no-repeat center center;
     background-size: 100% 100%;
@@ -17,11 +16,13 @@
     display: block;
     text-align: left;
 }
+
 .textoBanner h1{
     width: 80%;
     font-size: 2.5em;
     font-weight: 700;
 }
+
 .textoBanner p{
     width: 60%;
     color: #FFFFFF;
@@ -33,11 +34,13 @@
     width: 25%;
     display: block;
 }
+
 .rocket{
     margin: auto;
     margin-bottom: 25px;
     display: block;
 }
+
 .talents{
     margin: auto;
     margin-top: 25px;
