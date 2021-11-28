@@ -54,7 +54,6 @@ form input{
 @media screen and (max-width: 767px) {
     .newsLetter{
         flex-direction: column;
-        height: auto;
         padding: 20px;
     }
 
