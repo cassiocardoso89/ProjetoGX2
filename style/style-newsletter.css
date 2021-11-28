@@ -50,3 +50,19 @@ form input{
     color: #FFB900;
     border: 1px solid #FFB900;
 }
+
+@media screen and (max-width: 767px) {
+    .newsLetter{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .newsTexto{
+        width: 100%;
+    }
+
+    .newsForm{
+        width: 100%;
+    }
+}
