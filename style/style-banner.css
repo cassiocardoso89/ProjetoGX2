@@ -47,3 +47,28 @@
     margin-top: 25px;
     display: block;
 }
+
+@media screen and (max-width: 480px) {
+    .banner{
+        margin: 0 auto;
+        width: 100%;
+        text-align: left;
+        border: #ff0000 solid 1px;
+    }
+    .textoBanner{
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        border: #00ff40 solid 1px;
+    }
+    .textoBanner img{
+        width: 25%;
+    }
+    .logoBanner{
+        display: none;
+    }
+}
