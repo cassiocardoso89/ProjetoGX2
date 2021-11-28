@@ -11,7 +11,7 @@
 
 .requisitos{
     height: 13%;
-    max-height: 310px;
+    /* max-height: 310px; */
     margin: 50px auto 50px auto;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@
 
 .detalhes{
     height: 13%;
-    max-height: 310px;
+    /* max-height: 310px; */
     margin: 50px auto 50px auto;
     display: flex;
     justify-content: center;
@@ -75,4 +75,34 @@
     max-width: 470px;
     width: 25%;
     text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+    .requisitos{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .textoRequisitos{
+        min-width: 80%;
+    }
+
+    .fotoRequisitos{
+        width: auto;
+    }
+
+    .detalhes{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0 auto;
+    }
+
+    .textoDetalhes{
+        min-width: 80%;
+    }
+
+    .fotoDetalhes{
+        width: auto;
+    }
 }
