@@ -20,7 +20,7 @@
     margin-bottom: auto;
     display: inline-block;
 }
-
+/*--MENU--*/
 .menu{
     margin: auto 50px auto 50px;
     width: 460px;
@@ -57,6 +57,10 @@ li a:hover::after{
     transition: transform 0.4s ease;
 }
 
+
+
+
+/*--BOTAO--*/
 .botaoHeader{
     margin-top: auto;
     margin-bottom: auto;
@@ -76,4 +80,30 @@ li a:hover::after{
     border: #10DFC2 solid 2px;
     box-shadow: #10DFC2 0px 0px 10px;
     transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+    .logoPrincipal{
+        position: absolute;
+        margin-top: 17px;
+        left: 0;
+        text-align: left;
+    }
+    .menu{
+        width: 33.333%;
+        /* flex-wrap: wrap; */
+        /* flex-direction: column; */
+        padding-left: 0px;
+
+    }
+
+
+
+
+    .botaoHeader{
+        width: 100px;
+        position: absolute;
+        margin-top: 17px;
+        right: 0;
+    }    
 }
