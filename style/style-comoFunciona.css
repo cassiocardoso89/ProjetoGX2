@@ -1,5 +1,5 @@
 .comoFuncGeral{
-    max-height: 500px;
+    /* max-height: 500px; */
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
@@ -39,4 +39,21 @@
     border-radius: 5px;
     text-align: left;
     background-color: #fff;
+}
+
+@media screen and (max-width: 767px){
+    .comoFuncGeral{
+        border: #032624 solid 1px;
+        padding: 0;
+    }
+    .comoFunc{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardsComoFunc{
+        flex-direction: column;
+    }
+    .card{
+        max-width: 100%;
+    }
 }
