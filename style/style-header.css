@@ -58,19 +58,26 @@ li a:hover::after{
     transition: transform 0.4s ease;
 }
 
-.checkbtn{
-    font-size: 30px;
-    color: red;
-    /* float: right; */
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    /* display: none; */
-}
-.checkbtn::after{
-    content: "AAA";
+.check{
+    display: none;
 }
 
+nav{
+    padding-top: 15px;
+}
+
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
 
 
 
@@ -103,25 +110,24 @@ li a:hover::after{
         left: 0;
         text-align: left;
     }
-    /* https://www.youtube.com/watch?v=CFmMNuxZ3YY */
 
-    .checkbtn {
-		display: block;
-	}
+    .check{
+        font-size: 50px;
+        color: #04254C;
+        cursor: pointer;
+        display: block;
+    }
 	ul{
 		position: fixed;
 		width: 100%;
-		height: 100vh;
-		background: #1d075f;
+		background: #F6F6F7;
 		top: 80px;
 		left: -100%;
-		text-align: center;
+		/* text-align: center; */
 		transition: all .5s;
 	}
 	nav ul li{
-		display: block;
-		margin: 50px 0;
-		line-height: 30px;
+		margin: 20px 0;
 	}
 	nav ul li a {
 		font-size: 20px;
@@ -141,11 +147,8 @@ li a:hover::after{
         flex-wrap: wrap;
         align-items: center;
         flex-direction: column;
+        justify-content: start;
         padding-left: 0px;
-    }
-    li a::after{
-        content: "";
-        width: 0;
     }
 
     .botaoHeader{
