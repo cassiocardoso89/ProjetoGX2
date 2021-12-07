@@ -7,15 +7,12 @@
     color: #fff;
     font: normal normal normal 16px/23px 'Montserrat';
 }
-
 .textoFooter{
     width: 430px;
 }
-
 .textoFooter h3{
     font-weight: 600;
 }
-
 .botaoFooter{
     margin-top: 20px;
     padding: 8px 15px;
@@ -27,12 +24,10 @@
     cursor: pointer;
     font-weight: 600;
 }
-
 .botaoFooter:hover{
     transform: scale(1.1);
     transition: all 0.3s;
 }
-
 .botaoFooter::after{
     content: url('../img/Caminho\ 221.svg');
     margin-left: 10px;
@@ -44,7 +39,6 @@
     margin: 0 70px;
     width: 131px;
 }
-
 .servicosFooter p{
     padding: 0;
     margin: 0;
@@ -58,31 +52,26 @@
     list-style:none;
     padding-left: 0;
 }
-
 .servicosFooter .listasFooter li{
     line-height: 2.5em;
 }
 .servicosFooter .listasFooter li:hover{
     color: aqua;
 }
-
 .enderecosGeral{
     display: flex;
     justify-content: space-between;
 }
-
 .enderecosMark{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
 .enderecosMark img{
     background-color: #fff;
     border: #fff solid 20px;
     border-radius: 50%;
 }
-
 .enderecosTexto{
     width: 322px;
     display: flex;
@@ -90,7 +79,6 @@
     justify-content: space-between;
     margin-left: 30px;
 }
-
 @media screen and (max-width: 767px) {
     .footer{
         flex-direction: column;
@@ -120,4 +108,3 @@
         margin-right: 30px;
     }
 }
-

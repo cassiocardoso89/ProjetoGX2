@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     color: #FFFFFF;
-    background: url('/img/Background.png');
+    background: url('./img/Background.png');
     background-position: center;
     background-size: 100% 100%;
 }
@@ -52,11 +52,9 @@
     .banner{
         padding: 15px 10px;
     }
-
     .textoBanner{
         width: auto;
     }
-
     .textoBanner h1{
         width: auto;
         font-size: 1.5em;
